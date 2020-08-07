@@ -1,0 +1,8 @@
+x = {
+    "Name" : "soniya",
+    "Age" : "20",
+    "Hoobit" : "punctually"
+}
+import json
+x=json.dumps(x)
+print(x)
